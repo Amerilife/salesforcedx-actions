@@ -1,4 +1,4 @@
-FROM salesforce/salesforcedx:7.81.0-full
+FROM salesforce/salesforcedx
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
